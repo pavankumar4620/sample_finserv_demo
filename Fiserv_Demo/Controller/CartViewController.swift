@@ -82,4 +82,13 @@ extension CartViewController {
         self.cartTableView.reloadData()
         self.totalAmountLabel.text =  "\u{20B9}" + String(format:"%.2f",Cart.productsSumCalculation())
     }
+    
+    @IBAction func buyBtnClicked(sender: UIButton) {
+        let alertController = UIAlertController(title: "Alert", message: Alert.successAlert , preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { _ in
+            Cart.cartList.removeAll()
+            self.navigationController?.popToRootViewController(animated: false)
+        }))
+        self.present(alertController, animated: true, completion: nil)
+    }
 }

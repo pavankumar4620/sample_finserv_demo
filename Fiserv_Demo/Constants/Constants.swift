@@ -39,4 +39,5 @@ struct Title {
 
 struct Alert {
    static let noRecord_Cart = "No Records Found on the Cart"
+   static let successAlert = "Purchased Successfully"
 }
