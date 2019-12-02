@@ -1,0 +1,147 @@
+
+[
+    {
+        "category": "Veg",
+        "productId": 1001,
+        "productName": "Fried Rice",
+        "cost": 90.5,
+        "productDesc": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish.",
+        "qty": 1,
+        "img": "vegfriedrice.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1002,
+        "productName": "Corn Fried Rice",
+        "cost": 110,
+        "productDesc": "ried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish.",
+        "qty": 1,
+        "img" : "cornfriedrice.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1003,
+        "productName": "Veg Biryani",
+        "cost": 90,
+        "productDesc": "A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort. Long-grained rice (like basmati) flavored with exotic spices, such as saffron, is layered with lamb, chicken, fish, or vegetables, and a thick gravy",
+        "qty": 1,
+        "img" : "vegbiryani.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1004,
+        "productName": "Veg Noodles",
+        "cost": 110,
+        "productDesc": "Please teach me!",
+        "qty": 1,
+        "img" : "vegnoodles.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1005,
+        "productName": "Paneer Butter Masala",
+        "cost": 150,
+        "productDesc": "Paneer Butter Masala (Paneer Makhani) Creamy Restaurant style Paneer Butter Masala is easy to make at home. This creamy curry is made with onion, tomatoes, cashews, cream and butter (of course!)",
+        "qty": 1,
+        "img" : "paneerbuttermasala.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1006,
+        "productName": "Palak Paneer Butter",
+        "cost": 130,
+        "productDesc": "Paneer Butter Masala (Paneer Makhani) Creamy Restaurant style Paneer Butter Masala is easy to make at home. This creamy curry is made with onion, tomatoes, cashews, cream and butter (of course!)",
+        "qty": 1,
+        "img" : "palakpaneer.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1007,
+        "productName": "Mushroom Masala",
+        "cost": 180,
+        "productDesc": "A mushroom, or toadstool, is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source. ... These gills produce microscopic spores that help the fungus spread across the ground or its occupant surface.",
+        "qty": 1,
+        "img" : "mushroommasala.jpg"
+    },
+    {
+        "category": "Veg",
+        "productId": 1008,
+        "productName": "Paneer Chilli",
+        "cost": 200,
+        "productDesc": "Paneer Butter Masala (Paneer Makhani) Creamy Restaurant style Paneer Butter Masala is easy to make at home. This creamy curry is made with onion, tomatoes, cashews, cream and butter (of course!)",
+        "qty": 1,
+        "img" : "paneerChilli.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1009,
+        "productName": "Chicken Biryani",
+        "cost": 200,
+        "productDesc": "A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort. Long-grained rice (like basmati) flavored with exotic spices, such as saffron, is layered with lamb, chicken, fish, or vegetables, and a thick gravy",
+        "qty": 1,
+        "img" : "chickenbirayni.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1010,
+        "productName": "Mutton Biryani",
+        "cost": 250,
+        "productDesc": "A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort. Long-grained rice (like basmati) flavored with exotic spices, such as saffron, is layered with lamb, chicken, fish, or vegetables, and a thick gravy",
+        "qty": 1,
+        "img" : "muttonbiryani.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1012,
+        "productName": "Chicken Chilli",
+        "cost": 250,
+        "productDesc": "Chilli chicken is a sweet, spicy & slightly sour crispy appetizer made with chicken, bell peppers, garlic, chilli sauce & soya sauce. This crisp fried saucy chilli chicken recipe is hands down the best that you can make at home. There are so many ways this chicken appetizer is made.",
+        "qty": 1,
+        "img" : "chickenChilli.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1013,
+        "productName": "Chicken Kebab",
+        "cost": 250,
+        "productDesc": "Chicken kebab recipe | Chicken kabab recipe. Chicken kebab recipe – Make the best delicious, soft, succulent & flavorful chicken kababs at home. Kabab or kebab is a piece of food, mostly meat grilled over charcoal fire",
+        "qty": 1,
+        "img" : "chickenkebab.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1014,
+        "productName": "BBQ Chicken Full",
+        "cost": 400,
+        "productDesc": "Barbecue chicken consists of chicken parts or entire chickens that are barbecued, grilled or smoked. There are many global and regional preparation techniques and cooking styles. Barbecue chicken is often seasoned or coated in a spice rub, barbecue sauce, or both.",
+        "qty": 1,
+        "img" : "BBQChicken.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1014,
+        "productName": "Butter Chicken",
+        "cost": 200,
+        "productDesc": "Butter chicken will often look very similar to chicken tikka masala; the difference is that tikka masala has more of a complex, layered flavor from the spices, while butter chicken tastes like, well, butter, with a milder, sweeter gravy.",
+        "qty": 1,
+        "img" : "butterchicken.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1015,
+        "productName": "Chicken Wings",
+        "cost": 150,
+        "productDesc": "Chicken wings are one of our favorite all-american snacks. They're fun to eat, and you can make them in so many different ways..",
+        "qty": 1,
+        "img" : "chickenwings.jpg"
+    },
+    {
+        "category": "Non-Veg",
+        "productId": 1016,
+        "productName": "Chicken Curry",
+        "cost": 180,
+        "productDesc": "Chicken wings are one of our favorite all-american snacks. They're fun to eat, and you can make them in so many different ways..",
+        "qty": 1,
+        "img" : "chickencurry.jpg"
+    }
+]
