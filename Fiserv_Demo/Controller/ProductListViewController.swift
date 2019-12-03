@@ -17,7 +17,7 @@ enum Category: String {
 class ProductListViewController: BaseViewControlller {
     private var service: Services!
     @IBOutlet var product_tableView: UITableView!
-    private var productList : [Product]?
+    private var productList : [Product]!
     var category : Category!
     
     override func viewDidLoad() {
@@ -30,12 +30,9 @@ class ProductListViewController: BaseViewControlller {
         /*
          Below code is used for fetch the data from json file
          */
-
         service.genericFetchData { (product: [Product]) in
-            DispatchQueue.main.async { [unowned self] in
                 self.productList = product.filter({ $0.category == self.category.rawValue })
                 self.product_tableView.reloadData()
-           }
         }
     }
 }

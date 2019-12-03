@@ -17,17 +17,11 @@ class CategoryCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        bgView.layer.cornerRadius = 10
-        bgView.layer.masksToBounds = true
-        bgView.layer.borderColor = UIColor.lightGray.cgColor
-        bgView.layer.borderWidth = 1
-        // Initialization code
+        bgView.setRoundedCorners()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }

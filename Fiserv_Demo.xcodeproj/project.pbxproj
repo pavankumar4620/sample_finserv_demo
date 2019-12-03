@@ -51,6 +51,7 @@
 		0489C5482393DE920056F919 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0489C5472393DE920056F919 /* plus.png */; };
 		0489C54A2393DEA20056F919 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0489C5492393DEA20056F919 /* minus.png */; };
 		0489C54C2393F5130056F919 /* shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0489C54B2393F5130056F919 /* shopping-cart.png */; };
+		04A661382396561B00DCD636 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A661372396561B00DCD636 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		0489C5472393DE920056F919 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		0489C5492393DEA20056F919 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
 		0489C54B2393F5130056F919 /* shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart.png"; sourceTree = "<group>"; };
+		04A661372396561B00DCD636 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		047B7F4C23918827002B7CBD /* Fiserv_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04A66136239655F900DCD636 /* Extensions */,
 				0489C5402393C8640056F919 /* Constants */,
 				0489C5092393785A0056F919 /* Model */,
 				0489C507239378410056F919 /* View */,
@@ -270,6 +273,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		04A66136239655F900DCD636 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04A661372396561B00DCD636 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04CD3A3E23956C3A00936272 /* General Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,6 +400,7 @@
 				047B7F5023918827002B7CBD /* CategoryViewController.swift in Sources */,
 				040DD39223929CF00017D38F /* ProductCell.swift in Sources */,
 				047B7F4E23918827002B7CBD /* AppDelegate.swift in Sources */,
+				04A661382396561B00DCD636 /* Extension.swift in Sources */,
 				047A4A0A23942F5C00ADDC76 /* CartViewController.swift in Sources */,
 				0489C5442393D7090056F919 /* Cart.swift in Sources */,
 				0489C535239391210056F919 /* ImagesViewController.swift in Sources */,

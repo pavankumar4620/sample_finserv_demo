@@ -23,13 +23,10 @@ class ImagesCell: UITableViewCell {
         super.awakeFromNib()
         self.productImg.layer.cornerRadius = 10
         self.productImg.layer.masksToBounds = true
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
