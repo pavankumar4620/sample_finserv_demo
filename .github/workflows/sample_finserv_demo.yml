@@ -15,11 +15,11 @@ jobs:
               uses: actions/checkout@master
               
             - name: Clean Project
-              run:  - xcodebuild clean -workspace Fiserv_Demo.xcworkspace -scheme Fiserv_Demo
+              run:  - xcodebuild clean -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo
               
             - name: Executing code
-              run:  xcodebuild -workspace Fiserv_Demo.xcworkspace -scheme Fiserv_Demo 
+              run:  xcodebuild -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo 
               
             - name: Build Archive
-              run:  - xcodebuild clean archive -workspace Fiserv_Demo.xcworkspace -scheme Fiserv_Demo -configuration Debug -archivePath $PWD/build/Fiserv_Demo.xcarchive PROVISIONING_STYLE="Automatic"                   
+              run:  - xcodebuild clean archive -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo -configuration Debug -archivePath $PWD/build/Fiserv_Demo.xcarchive PROVISIONING_STYLE="Automatic"                   
     
