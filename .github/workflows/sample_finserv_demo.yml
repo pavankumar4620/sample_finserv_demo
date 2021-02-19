@@ -14,9 +14,6 @@ jobs:
             - name: checkout
               uses: actions/checkout@master
               
-            - name: Executing code
-              run:  xcodebuild -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo 
-              
             - name: Build Archive
               run:  xcodebuild clean archive -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo -configuration Debug -archivePath $PWD/build/Fiserv_Demo.xcarchive PROVISIONING_STYLE="Automatic"                   
     
