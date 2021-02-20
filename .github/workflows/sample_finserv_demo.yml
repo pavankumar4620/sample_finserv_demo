@@ -18,5 +18,4 @@ jobs:
               run: sudo xcode-select -switch /Application/Xcode_11.3.app
               
             - name: Build Archive
-              run:  xcodebuild clean archive -project Fiserv_Demo.xcodeproj -scheme Fiserv_Demo -sdk iphoneos -configuration Debug  PROVISIONING_STYLE="Automatic"                  
-    
+              run:  - xcodebuild clean archive -project Fiserv_Demo.xcworkspace -scheme Fiserv_Demo -configuration Debug
